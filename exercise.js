@@ -2,7 +2,7 @@ const tasks = ["laundry", "shovel driveway", "grocery shopping", "check email", 
 
 console.log("Sunday To Do List:");
 
-for(let i = 0; i < tasks.length; i++) {
+for (let i = 0; i < tasks.length; i++) {
   taskStr = `${i+1}: ${tasks[i]}`
   console.log(taskStr);
 }
